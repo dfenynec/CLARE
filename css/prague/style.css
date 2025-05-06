@@ -4713,7 +4713,7 @@ a:hover, a:focus {
 }
 
 .top-banner.fullheight .top-banner-cursor {
-  height: 33.333333%;
+  min-height: 33.333333%;
 }
 
 .top-banner.categories {
