@@ -4317,7 +4317,7 @@ a:hover, a:focus {
   content: '';
   position: absolute;
   top: 0;
-  bottom: -30px;
+  bottom: 0px;
   left: 0;
   right: 0;
   background-color: black;
