@@ -14,5 +14,5 @@ jobs:
         server: ftpx.forpsi.com
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
-        protocol: ftp
+        protocol: ftpx
         server-dir: /www/
