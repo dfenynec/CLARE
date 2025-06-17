@@ -1,29 +1,18 @@
-name: Deploy via SFTP
-
-on:
-  push:
-    branches:
-      - main  # Spustí se při každém pushi na větev main
-
+on: push
+name: 🚀 Deploy website on push
 jobs:
-  deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-
     steps:
-      - name: ⬇️ Checkout repository
-        uses: actions/checkout@v3
-
-      - name: 🧪 Build project
-        run: |
-          echo "Add your build steps here if needed"
-       
-
-      - name: 🚀 Deploy via SFTP
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.FTPUSERNAME }}
-          password: ${{ secrets.FTPPASSWORD }}
-          port: 21      
-          source: "."
-          target: "/www/" 
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: 62.109.151.114
+        username: ${{ secrets.FTPUSERNAME }}
+        password: ${{ secrets.FTPPASSWORD }}
+        protocol: ftp
+        server-dir: /public_html/
