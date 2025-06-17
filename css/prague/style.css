@@ -4320,8 +4320,8 @@ a:hover, a:focus {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: black;
-  opacity: 0.1;
+
+
   z-index: 90;
 }
 
