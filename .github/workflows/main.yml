@@ -24,6 +24,6 @@ jobs:
           host: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.FTPUSERNAME }}
           password: ${{ secrets.FTPPASSWORD }}
-          port: 22      
+          port: 21      
           source: "."
           target: "/www/" 
