@@ -7667,7 +7667,7 @@ header.sticky .navbar.disable-fixed {
 }
 /* Header light */
 .header-light .navbar-nav .nav-link {
-  color: var(--base-color);
+  color: var(--white);
 }
 .header-light .header-icon .icon > a {
   color: var(--dark-gray);
