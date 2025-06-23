@@ -4080,6 +4080,9 @@ background-image: linear-gradient(to right top, #ae8625, #F7EF8A, #D2AC47, #EDC9
 .h-20px {
   height: 20px !important;
 }
+.h-20 {
+  height: 20% !important;
+}
 .h-25px {
   height: 25px !important;
 }
