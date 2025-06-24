@@ -4595,7 +4595,9 @@ a:hover, a:focus {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  color: white;
+  display: flex;             /* Flexbox aktivace */
+  align-items: center;       /* Vertikální centrování */
+         /* Volitelně */
 }
 
 .strip-title {
