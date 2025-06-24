@@ -4590,14 +4590,14 @@ a:hover, a:focus {
           align-items: center;
 }
 .image-strip {
-  height: 100px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   display: flex;             /* Flexbox aktivace */
   align-items: center;       /* Vertikální centrování */
-         /* Volitelně */
+
 }
 
 .strip-title {
