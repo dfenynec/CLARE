@@ -4591,7 +4591,7 @@ a:hover, a:focus {
 }
 
 .mid-banner {
-  min-height: 5vh;
+  max-height: 5vh;
   position: relative;
   width: 100%;
   display: -webkit-box;
