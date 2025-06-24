@@ -4591,18 +4591,9 @@ a:hover, a:focus {
 }
 
 .mid-banner {
-  max-height: 5vh;
-  position: relative;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+min-height: 10vh !important; /* nebo třeba 100px */
+  height: 10vh; /* zajistí, že bude malý i když má padding uvnitř */
+  max-height: 100px;
 }
 
 .interior-banner {
