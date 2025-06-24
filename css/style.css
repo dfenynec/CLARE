@@ -3393,7 +3393,7 @@ background-image: linear-gradient(to right top, #ae8625, #F7EF8A, #D2AC47, #EDC9
   background: linear-gradient(to right, rgba(24, 25, 28, 0.5), rgba(255, 255, 255, 0));
 }
 .bg-gradient-white-transparent {
-  background: linear-gradient( #a79682 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient( #a79682 50%, #a7968283 75% rgba(255, 255, 255, 0) 100%);
 }
 .bg-gradient-white-transparent-90 {
   background: linear-gradient(rgba(255, 255, 255, 0)0%,  #a79682  40%);
