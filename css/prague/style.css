@@ -4590,7 +4590,7 @@ a:hover, a:focus {
           align-items: center;
 }
 .image-strip {
-  height: 200px;
+  height: 150px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -4601,8 +4601,9 @@ a:hover, a:focus {
 }
 
 .strip-title {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 100;
+  color: white;
   margin: 0;
 }
 .mid-banner {
