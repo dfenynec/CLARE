@@ -4589,7 +4589,20 @@ a:hover, a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
+.image-strip {
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
 
+.strip-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
 .mid-banner {
 min-height: 10vh !important; /* nebo třeba 100px */
   height: 10vh; /* zajistí, že bude malý i když má padding uvnitř */
