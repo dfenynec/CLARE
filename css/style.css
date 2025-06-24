@@ -3405,7 +3405,7 @@ background-image: linear-gradient(to right top, #ae8625, #F7EF8A, #D2AC47, #EDC9
   );
 }
 .bg-gradient-white-transparent-90 {
-  background: linear-gradient(rgba(255, 255, 255, 0)0%, #a79682  100%);
+  background: linear-gradient(to bottom, rgba(167,150,130,1) 0%, rgba(167,150,130,0) 100%) !important;
 }
 .bg-gradient-white-dark-transparent {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, #ffffff), to(transparent));
