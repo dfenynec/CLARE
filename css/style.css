@@ -3396,9 +3396,11 @@ background-image: linear-gradient(to right top, #ae8625, #F7EF8A, #D2AC47, #EDC9
   background: linear-gradient(
     to bottom,
     #a79682 0%,
-    #a79682f0 30%,
-    #a79682a0 60%,
-    #a7968260 80%,
+    #a79682e6 10%,
+    #a79682cc 20%,
+    #a79682a6 40%,
+    #a7968280 60%,
+    #a7968255 80%,
     rgba(255, 255, 255, 0) 100%
   );
 }
