@@ -4597,7 +4597,7 @@ a:hover, a:focus {
   position: relative;
   display: flex;             /* Flexbox aktivace */
   align-items: center;       /* Vertikální centrování */
-
+  margin-top: -90px;
 }
 
 .strip-title {
