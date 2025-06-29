@@ -4590,7 +4590,7 @@ a:hover, a:focus {
           align-items: center;
 }
 .image-strip {
-  height: 150px;
+  height: 50px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
