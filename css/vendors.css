@@ -11029,6 +11029,10 @@ textarea.form-control-lg {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
   }
+  .px-lg-6 {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+  }
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -11589,6 +11593,10 @@ textarea.form-control-lg {
   .px-xl-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+  }
+  .px-xl-6 {
+    padding-right: 7rem !important;
+    padding-left: 7rem !important;
   }
   .py-xl-0 {
     padding-top: 0 !important;
