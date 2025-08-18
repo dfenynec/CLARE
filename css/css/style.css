@@ -12875,7 +12875,7 @@ a:hover, a:focus {
 }
 
 .project-detail-full-overlay.open .icon {
-  background-color: rgba(210,182,128, 0.7);
+  background-color: #d2b680;
   visibility: visible;
 }
 
@@ -12895,7 +12895,7 @@ a:hover, a:focus {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: rgba(210,182,128, 0.4);
+  background-color: #d2b680;
   margin: auto;
   top: 50%;
   left: 50%;
