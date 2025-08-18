@@ -12875,7 +12875,7 @@ a:hover, a:focus {
 }
 
 .project-detail-full-overlay.open .icon {
-  background-color: linear-gradient(180deg, #f6efd0 0, #d2b680 100%);
+  background-color: rgba(210,182,128);
   visibility: visible;
 }
 
